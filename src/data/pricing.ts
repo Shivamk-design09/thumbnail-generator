@@ -2,15 +2,15 @@ import type { IPricing } from "../types";
 
 export const pricingData: IPricing[] = [
     {
-        name: "Basic",
+        name: "Basic", 
         price: 29,
         period: "month",
         features: [
-            "Access to all basic courses",
-            "Community support",
-            "10 practice projects",
-            "Course completion certificate",
-            "Basic code review"
+            "50 AI thumbnails/m0",
+            "Basic Tempalets",
+            "Standard Roslution",
+            "No WaterMark",
+            "Email support"
         ],
         mostPopular: false
     },
@@ -19,13 +19,13 @@ export const pricingData: IPricing[] = [
         price: 79,
         period: "month",
         features: [
-            "Access to all Pro courses",
-            "Priority community support",
-            "30 practice projects",
-            "Course completion certificate",
-            "Advance code review",
-            "1-on-1 mentoring sessions",
-            "Job assistance"
+            "Unlimited Ai thumbnail",
+            "Premium Templates",
+            "4k Resolution",
+            "A/B Testing Tools",
+            "Priority Support",
+            "custom Fonts",
+            "Brand Kit  analysis"
         ],
         mostPopular: true
     },
@@ -34,11 +34,10 @@ export const pricingData: IPricing[] = [
         price: 199,
         period: "month",
         features: [
-            "Access to all courses",
-            "Dedicated support",
-            "Unlimited projects",
-            "Course completion certificate",
-            "Premium code review"
+            "Everythin in Pro",
+            "API Access",
+            "dedicated Account Manager",
+            "cusomt branding"
         ],
         mostPopular: false
     }
