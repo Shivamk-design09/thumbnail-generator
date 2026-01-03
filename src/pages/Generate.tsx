@@ -5,6 +5,7 @@ import { colorSchemes, type AspectRatio, type IThumbnail, type ThumbnailStyle } 
 import SoftBackdrop from "../components/SoftBackdrop"
 import AsspectRatioSelector from "../components/AsspectRatioSelector"
 import StyleSelector from "../components/styleSelector"
+import ColorSchemeSelector from "../components/colorSchemeSelector"
 
 const Generate = () => {
     const {id} = useParams()
@@ -52,7 +53,7 @@ const Generate = () => {
                   {/* styleselector */}
                   <StyleSelector value={style} onChange={setStyle} isOpen={styleDropDownOpen} setisOpen={setStyleDropDownOpen}/>
                   {/* colorschemselector */}
-
+                  <ColorSchemeSelector value={colorSchemeId} onChange={setcolorSchemeId}/>
                   {/* Details  */}
                   <div className="space-y-2">
                     <label className="font-medium block text-sm">Additinal prompts <span className="text-zinc-400 text-xs">(optional)</span></label>

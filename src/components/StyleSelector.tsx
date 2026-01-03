@@ -47,7 +47,8 @@ const styleIcons: Record<ThumbnailStyle,React.ReactNode> ={
                          key={style} type='button' onClick={()=>{onChange(style); setisOpen(false)}}>
                             <div className='mt-0.5'>{styleIcons[style]}</div>
                             <div>
-                                <p>{style}</p>
+                                <p className='font-medium'>{style}</p>
+                                <p className='text-xs text-zinc-400'>{styleDescriptions[style]}</p>
                             </div>
                         </button>
                     ))}
